@@ -1,23 +1,19 @@
-// naikTurunSlice.js
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-  totalCounter: 0
-};
-
-const naikTurunSlice = createSlice({
-  name: 'counter',
-  initialState,
-  reducers: {
-    tambahCounter(state) {
-      state.totalCounter++;
+export const naikTurunSlice = createSlice({
+    name: 'CounterNaikTurun', 
+    initialState: {
+        totalCounter: 0
+    }, 
+    reducers: {
+        tambahCounter(state){
+            state.totalCounter += 1;
+        },
+        kurangCounter(state){
+            state.totalCounter -= 1;
+        }
     },
-    kurangCounter(state) {
-      state.totalCounter--;
-    }
-  }
 });
 
 export const { tambahCounter, kurangCounter } = naikTurunSlice.actions;
-
 export default naikTurunSlice.reducer;
