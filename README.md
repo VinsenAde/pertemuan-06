@@ -3,6 +3,8 @@
 | NIM |  2141720165|
 | Name | Vinsensius Ade Winata|
 | Class | TI - 3I |
+
+Practicum 1
 ![image](https://drive.google.com/uc?export=view&id=1aWp94cRLW9Bi23d0CQD78aNdEQWJjZ_S)
 https://drive.google.com/file/d/1aWp94cRLW9Bi23d0CQD78aNdEQWJjZ_S/view?usp=drive_link
 ![image](https://drive.google.com/uc?export=view&id=1F1tm7uG_rMCi47TzxvvcydCKsjjW9Uzt)
@@ -10,20 +12,24 @@ https://drive.google.com/file/d/1F1tm7uG_rMCi47TzxvvcydCKsjjW9Uzt/view?usp=drive
 ![image](https://drive.google.com/uc?export=view&id=1xPvLoD7pujzSas6jH6vKKhSIR3bkkwR3)
 https://drive.google.com/file/d/1xPvLoD7pujzSas6jH6vKKhSIR3bkkwR3/view?usp=drive_link
 
-
 ![image](https://drive.google.com/uc?export=view&id=11cmZm1HkhgTfVTqogYqUP_5UU0woYyBw)
 https://drive.google.com/file/d/11cmZm1HkhgTfVTqogYqUP_5UU0woYyBw/view?usp=drive_link
+Modal is still Not working 
 ![image](https://drive.google.com/uc?export=view&id=12k45BwCHX_HIgd7GMbPP2qSHFusWwWPz)
 https://drive.google.com/file/d/12k45BwCHX_HIgd7GMbPP2qSHFusWwWPz/view?usp=drive_link
+![image](https://drive.google.com/uc?export=view&id=1PcFeSzJsit2C3X1qeM2gV26OYSoSvfPs)
+
+Practicum 2
+ From the code provided, when accessing http://localhost:3000/login and clicking the login button, the state isLogin will be changed to true or false depending on whether the user has logged in or logged out. Then, depending on the value of isLogin, the appropriate message and corresponding button will be displayed.
+
 ![image](https://drive.google.com/uc?export=view&id=1JC5BlLxsE6py6mpZytryNi2_M5uY3ffq)
 https://drive.google.com/file/d/1JC5BlLxsE6py6mpZytryNi2_M5uY3ffq/view?usp=drive_link
 ![image](https://drive.google.com/uc?export=view&id=1rDwjJEObxyZAVx0L_Tlqf_VPFFzkxVIk)
 https://drive.google.com/file/d/1rDwjJEObxyZAVx0L_Tlqf_VPFFzkxVIk/view?usp=drive_link
 ![Screenshot](screenshot/fixedcode 2.1.png)
 
-2. 
-a.From the code provided, when accessing http://localhost:3000/login and clicking the login button, the state isLogin will be changed to true or false depending on whether the user has logged in or logged out. Then, depending on the value of isLogin, the appropriate message and corresponding button will be displayed.
 
+a.
 When you refresh the page multiple times after logging in, there may be inconsistencies in the login state between the server and the client. This can be caused by several factors, for example:
 
 1. Handling of login status on client and server side is inconsistent.
