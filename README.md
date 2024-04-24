@@ -19,6 +19,8 @@ Modal is still Not working
 https://drive.google.com/file/d/12k45BwCHX_HIgd7GMbPP2qSHFusWwWPz/view?usp=drive_link
 ![image](https://drive.google.com/uc?export=view&id=1PcFeSzJsit2C3X1qeM2gV26OYSoSvfPs)
 
+Modal is Working!
+
 Practicum 2
  From the code provided, when accessing http://localhost:3000/login and clicking the login button, the state isLogin will be changed to true or false depending on whether the user has logged in or logged out. Then, depending on the value of isLogin, the appropriate message and corresponding button will be displayed.
 
